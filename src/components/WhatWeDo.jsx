@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhatWeDo() {
     return (
-        <section className=" grid justify-items-center  relative overflow-auto ">
+        <section className=" grid justify-items-center  relative overflow-visible">
             <img
                 className="object-cover w-screen h-screen  absolute -z-20 "
                 src="src/assets/images/starsbg.jpg"
