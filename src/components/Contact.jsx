@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default function Contact() {
     return (
@@ -6,7 +6,7 @@ export default function Contact() {
             <div className=" flex items-center justify-center relative  ">
                 <img
                     className="h-screen w-screen object-cover     "
-                    src="src\assets\images\contactbg.png"
+                    src="src/assets/images/contactbg.png"
                     alt="Cupcakes image"
                 />{" "}
                 <div className=" max-w-2xl w-10/12 rounded-3xl font-roboto  p-10 bg-white  grid gap-8 absolute  ">
@@ -37,5 +37,5 @@ export default function Contact() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

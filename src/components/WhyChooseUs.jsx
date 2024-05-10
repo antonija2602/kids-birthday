@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default function WhyChooseUs() {
     return (
@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
                 <div className="  grid justify-items-center text-center gap-8 px-20  md:p-8  xl:py-16 content-start">
                     <img
                         className="size-24"
-                        src="src\assets\images\choose3.png"
+                        src="src/assets/images/choose3.png"
                         alt="animators"
                     />
                     <h1 className="text-xl   xl:py-3 ">Professionalism</h1>
@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
                 <div className="  grid justify-items-center text-center gap-8  px-20  md:p-8 xl:py-16 content-start">
                     <img
                         className="size-24"
-                        src="src\assets\images\choose1.png"
+                        src="src/assets/images/choose1.png"
                         alt="animators"
                     />
                     <h1 className="text-xl  xl:py-3 ">Individuality </h1>
@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
                 <div className="  grid justify-items-center text-center gap-8  px-20 md:p-8  xl:py-16 content-start">
                     <img
                         className="size-24"
-                        src="src\assets\images\choose2.png"
+                        src="src/assets/images/choose2.png"
                         alt="animators"
                     />
                     <h1 className="text-xl  xl:py-3 ">Uniqueness</h1>
@@ -64,7 +64,7 @@ export default function WhyChooseUs() {
                 <div className="  grid justify-items-center text-center gap-8  px-20 md:p-8  xl:py-16 content-start">
                     <img
                         className="size-24"
-                        src="src\assets\images\choose4.png"
+                        src="src/assets/images/choose4.png"
                         alt="animators"
                     />
                     <h1 className="text-xl  xl:py-3 ">Quality</h1>
@@ -78,5 +78,5 @@ export default function WhyChooseUs() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

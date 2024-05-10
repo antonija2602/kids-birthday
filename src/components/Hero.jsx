@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default function Hero() {
     return (
@@ -6,7 +6,7 @@ export default function Hero() {
             <div className="grid items-center  relative">
                 <img
                     className="h-screen w-screen object-cover     "
-                    src="src\assets\images\herobg.jpeg"
+                    src="src/assets/images/herobg.jpeg"
                     alt="A boy with a hat image"
                 />
                 <div className="grid gap-5 p-10 rounded-r-3xl   w-11/12 md:w-4/5 xl:w-2/4 font-roboto bg-white absolute bottom-14 ">
@@ -33,5 +33,5 @@ export default function Hero() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

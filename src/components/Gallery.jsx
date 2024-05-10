@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default function Gallery() {
     return (
@@ -12,42 +12,42 @@ export default function Gallery() {
                     <img
                         alt="gallery"
                         className="inset-0 w-full h-full object-cover object-center"
-                        src="src\assets\images\gallery1.jpg"
+                        src="src/assets/images/gallery1.jpg"
                     />
                 </div>
                 <div className="flex relative ">
                     <img
                         alt="gallery"
                         className=" inset-0 w-full h-full object-cover object-center"
-                        src="src\assets\images\gallery2.jpeg"
+                        src="src/assets/images/gallery2.jpeg"
                     />
                 </div>
                 <div className="flex relative">
                     <img
                         alt="gallery"
                         className=" inset-0 w-full h-full object-cover object-center"
-                        src="src\assets\images\gallery3.jpeg"
+                        src="src/assets/images/gallery3.jpeg"
                     />
                 </div>
                 <div className="flex relative">
                     <img
                         alt="gallery"
                         className=" inset-0 w-full h-full object-cover object-center"
-                        src="src\assets\images\gallery4.jpeg"
+                        src="src/assets/images/gallery4.jpeg"
                     />
                 </div>
                 <div className="flex relative">
                     <img
                         alt="gallery"
                         className=" inset-0 w-full h-full object-cover object-center"
-                        src="src\assets\images\gallery5.jpeg"
+                        src="src/assets/images/gallery5.jpeg"
                     />
                 </div>
                 <div className="flex relative">
                     <img
                         alt="gallery"
                         className=" inset-0 w-full h-full object-cover object-center"
-                        src="src\assets\images\gallery6.jpg"
+                        src="src/assets/images/gallery6.jpg"
                     />
                 </div>
             </div>
@@ -55,5 +55,5 @@ export default function Gallery() {
                 VIEW MORE
             </button>
         </section>
-    )
+    );
 }

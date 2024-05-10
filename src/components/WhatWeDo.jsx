@@ -5,7 +5,7 @@ export default function WhatWeDo() {
         <section className=" grid justify-items-center  relative overflow-auto ">
             <img
                 className="object-cover w-screen h-screen  absolute -z-20 "
-                src="src\assets\images\starsbg.jpg"
+                src="src/assets/images/starsbg.jpg"
                 alt="Stars image"
             />
             <div className=" text-center py-12 md:py-20 ">
@@ -19,7 +19,7 @@ export default function WhatWeDo() {
                     <div className="  grid justify-items-center text-center gap-8    px-20 md:p-8 py-8  content-start ">
                         <img
                             className="size-24"
-                            src="src\assets\images\animators.png"
+                            src="src/assets/images/animators.png"
                             alt="animators"
                         />
                         <h1 className=" text-xl   xl:py-3 ">Animators</h1>
@@ -36,7 +36,7 @@ export default function WhatWeDo() {
                     <div className="  grid justify-items-center text-center gap-8    px-20 md:p-8 py-8  content-start ">
                         <img
                             className="size-24"
-                            src="src\assets\images\facepainting.png"
+                            src="src/assets/images/facepainting.png"
                             alt="animators"
                         />
                         <h1 className=" text-xl  xl:py-3 ">Face Painting</h1>
@@ -53,7 +53,7 @@ export default function WhatWeDo() {
                     <div className="  grid justify-items-center text-center gap-8    px-20 md:p-8 py-8  content-start ">
                         <img
                             className="size-24"
-                            src="src\assets\images\games.png"
+                            src="src/assets/images/games.png"
                             alt="animators"
                         />
                         <h1 className=" text-xl  xl:py-3 ">Games</h1>
@@ -71,7 +71,7 @@ export default function WhatWeDo() {
                     <div className="  grid justify-items-center text-center gap-8    px-20 md:p-8 py-8  content-start ">
                         <img
                             className="size-24"
-                            src="src\assets\images\quest.png"
+                            src="src/assets/images/quest.png"
                             alt="animators"
                         />
                         <h1 className="text-xl  xl:py-3 ">Quest</h1>

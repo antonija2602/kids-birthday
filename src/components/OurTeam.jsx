@@ -1,6 +1,6 @@
-import React from "react"
-import { FaInstagram } from "react-icons/fa"
-import { FaArrowRightLong } from "react-icons/fa6"
+import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function OurTeam() {
     return (
@@ -19,7 +19,7 @@ export default function OurTeam() {
                         <div className="flex flex-col items-center p-10">
                             <img
                                 className="w-44 h-44 mb-5 rounded-full shadow-lg object-cover object-right "
-                                src="src\assets\images\natashaivanova.jpg"
+                                src="src/assets/images/natashaivanova.jpg"
                                 alt="Natasha Ivanova image"
                             />
                             <h5 className="mt-1 mb-4 text-2xl font-bold text-yellow-500 ">
@@ -42,7 +42,7 @@ export default function OurTeam() {
                         <div className="flex flex-col items-center p-10">
                             <img
                                 className="w-44 h-44 mb-5 rounded-full  shadow-lg object-cover object-left"
-                                src="src\assets\images\mikeperry.jpg"
+                                src="src/assets/images/mikeperry.jpg"
                                 alt="Mike Perry image"
                             />
                             <h5 className="m-1 mb-4 text-2xl font-bold text-yellow-500 ">
@@ -65,7 +65,7 @@ export default function OurTeam() {
                         <div className="flex flex-col items-center p-10">
                             <img
                                 className="w-44 h-44  mb-5 rounded-full  shadow-lg object-cover"
-                                src="src\assets\images\nicolestone.jpg"
+                                src="src/assets/images/nicolestone.jpg"
                                 alt="Nicole Stone image"
                             />
                             <h5 className="m-1 mb-4 text-2xl font-bold text-yellow-500 ">
@@ -88,7 +88,7 @@ export default function OurTeam() {
                         <div className="flex flex-col items-center p-10">
                             <img
                                 className="w-44 h-44  mb-5 rounded-full  shadow-lg object-cover object-right"
-                                src="src\assets\images\stevehudson.jpg"
+                                src="src/assets/images/stevehudson.jpg"
                                 alt="Steve Hudson image"
                             />
                             <h5 className="m-1 mb-4 text-2xl font-bold text-yellow-500 ">
@@ -111,7 +111,7 @@ export default function OurTeam() {
                         <div className="flex flex-col items-center p-10">
                             <img
                                 className="w-44 h-44  mb-5 rounded-full shadow-lg object-cover object-right "
-                                src="src\assets\images\marylarson.jpg"
+                                src="src/assets/images/marylarson.jpg"
                                 alt="Mary Larson image"
                             />
                             <h5 className="m-1 mb-4 text-2xl font-bold text-yellow-500 ">
@@ -151,5 +151,5 @@ export default function OurTeam() {
                 </div>
             </div>
         </section>
-    )
+    );
 }
