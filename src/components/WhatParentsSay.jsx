@@ -17,7 +17,7 @@ export default function WhatParentsSay() {
                         <div className="flex flex-col items-center    gap-4">
                             <img
                                 className="w-24 h-24   rounded-full  object-cover object-right "
-                                src="src/assets/images/stellalarson.jpg"
+                                src="./images/stellalarson.jpg"
                                 alt="Stella Larson image"
                             />
                             <h5 className=" text-xl font-bold  ">
@@ -41,7 +41,7 @@ export default function WhatParentsSay() {
                         <div className="flex flex-col items-center gap-4">
                             <img
                                 className="w-24 h-24 rounded-full   object-cover object-left"
-                                src="src/assets/images/nickjohnson.jpg"
+                                src="./images/nickjohnson.jpg"
                                 alt="Nick Johnson image"
                             />
                             <h5 className=" text-xl font-bold  ">
@@ -65,7 +65,7 @@ export default function WhatParentsSay() {
                         <div className="flex flex-col items-center gap-4">
                             <img
                                 className="w-24 h-24  rounded-full   object-cover"
-                                src="src/assets/images/olgaivanova.jpg"
+                                src="./images/olgaivanova.jpg"
                                 alt="Olga Ivanova image"
                             />
                             <h5 className="text-xl font-bold  ">
@@ -89,7 +89,7 @@ export default function WhatParentsSay() {
                         <div className="flex flex-col items-center gap-4">
                             <img
                                 className="w-24 h-24  rounded-full   object-cover "
-                                src="src/assets/images/paulhudson.jpg"
+                                src="./images/paulhudson.jpg"
                                 alt="Paul Hudson image"
                             />
                             <h5 className="text-xl font-bold  ">Paul Hudson</h5>
@@ -111,7 +111,7 @@ export default function WhatParentsSay() {
                         <div className="flex flex-col items-center gap-4">
                             <img
                                 className="w-24 h-24   rounded-full  object-cover object-right "
-                                src="src/assets/images/valerystowon.jpg"
+                                src="./images/valerystowon.jpg"
                                 alt="Valery Stowon image"
                             />
                             <h5 className=" text-xl font-bold  ">
@@ -134,7 +134,7 @@ export default function WhatParentsSay() {
                         <div className="flex flex-col items-center gap-4">
                             <img
                                 className="w-24 h-24   rounded-full  object-cover object-right "
-                                src="src/assets/images/stellaperry.jpg"
+                                src="./images/stellaperry.jpg"
                                 alt="Stella Perry image"
                             />
                             <h5 className=" text-xl font-bold  ">
