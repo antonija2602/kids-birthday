@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <section className="">
+        <section id="contact">
             <div className=" flex items-center justify-center relative  ">
                 <img
                     className="h-screen w-screen object-cover     "

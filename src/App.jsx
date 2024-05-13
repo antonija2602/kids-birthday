@@ -10,20 +10,12 @@ import WhatParentsSay from "./components/WhatParentsSay";
 import Numbers from "./components/Numbers";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { useState } from "react";
 
 function App() {
-    const [showSideMenu, setShowSideMenu] = useState(false);
-
-    const toggleSideMenu = () => {
-        setShowSideMenu(!showSideMenu);
-    };
-
     return (
         <>
-            {showSideMenu && <SideMenu toggleSideMenu={toggleSideMenu} />}
             <Hero />
-            <Navbar toggleSideMenu={toggleSideMenu} />
+            <Navbar />
             <WhatWeDo />
             <OurTeam />
             <Gallery />

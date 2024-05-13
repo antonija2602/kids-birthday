@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
     return (
-        <section>
+        <section id="hero">
             <div className="grid items-center  relative">
                 <img
                     className="h-screen w-screen object-cover     "
